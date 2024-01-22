@@ -7,6 +7,7 @@ body{
     flex-direction: column;
     font-size: 15px;
     font-family: poppins;
+    height: 100vh;
 }
 
 .container{
@@ -15,7 +16,7 @@ body{
 	border-radius: 0.625rem;
 	max-width: 17rem;
 	padding: 1rem;
-    margin-top: 50px;
+    
 	margin-bottom: 1rem;
 }
 img{
