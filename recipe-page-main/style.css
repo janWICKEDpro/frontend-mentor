@@ -26,21 +26,39 @@ hr{
 h1{
     padding: 0;
     margin:  1px;
+    font-family: "Young Serif";
 }
 h2{
+    padding: 0;
+    margin-bottom: 0;
+
+    font-family: "Young Serif";
     color:  hsl(14, 45%, 36%);
 }
 .prep-container{
     background-color: hsl(330, 100%, 98%);
     border-radius: 10px;
-   
+   width: 100%;
+   box-sizing: border-box;
     padding: 10px;
 }
 .prep-container h2{
+    font-family: "Young Serif";
     color: hsl(332, 51%, 32%);
 }
 img{
     align-self: center;
     width: 100%;
     border-radius: 10px;
+}
+
+li{
+    padding: 5px;
+}
+span{
+    color:  hsl(14, 45%, 36%);
+}
+
+.table-item{
+    
 }
