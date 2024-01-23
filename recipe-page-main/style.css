@@ -1,5 +1,46 @@
 body{
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-family:"Roboto", sans-serif;
+    background-color: hsl(30, 18%, 87%);
+}
+.container{
+    width: 50%;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px;
+}
+hr{
+    
+    color: hsl(24, 5%, 18%);
+    width: 100%;
+}
+h1{
+    padding: 0;
+    margin:  1px;
+}
+h2{
+    color:  hsl(14, 45%, 36%);
+}
+.prep-container{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+   
+    padding: 10px;
+}
+.prep-container h2{
+    color: hsl(332, 51%, 32%);
+}
+img{
+    align-self: center;
+    width: 100%;
+    border-radius: 10px;
 }
