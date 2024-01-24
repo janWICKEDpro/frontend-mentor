@@ -17,6 +17,7 @@ body{
     padding: 20px;
     background-color: hsl(0, 0%, 12%);
     border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     margin-top: 100px;
 }
 h1{
@@ -68,7 +69,7 @@ a:hover{
     color: hsl(0, 0%, 12%);
 }
 
-@media screen {
+@media (max-width: 500px) {
     body{
         height: 100vh;
     }
@@ -76,6 +77,6 @@ a:hover{
         margin-top: 0px;
     }
     a{
-        width: 200px;
+        width: 300px;
     }
 }
