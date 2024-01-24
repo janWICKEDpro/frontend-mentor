@@ -9,7 +9,7 @@ body{
     background-color: hsl(30, 18%, 87%);
 }
 .container{
-    width: 45%;
+    width: 40%;
     border-radius: 10px;
     background-color: white;
     display: flex;
