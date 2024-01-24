@@ -5,11 +5,11 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family:"Roboto", sans-serif;
+    font-family:"Outfit", sans-serif;
     background-color: hsl(30, 18%, 87%);
 }
 .container{
-    width: 50%;
+    width: 45%;
     border-radius: 10px;
     background-color: white;
     display: flex;
@@ -50,10 +50,18 @@ img{
     align-self: center;
     width: 100%;
     border-radius: 10px;
+    object-fit: cover;
 }
 
 li{
     padding: 5px;
+    color: hsl(24, 5%, 18%);
+}
+ol li::marker{
+    color:hsl(14, 45%, 36%);
+}
+ul li::marker{
+    color:hsl(14, 45%, 36%);
 }
 span{
     color:  hsl(14, 45%, 36%);
@@ -61,8 +69,38 @@ span{
 
 .table-item{
     display: flex;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
+    margin: 0px;
+}
+.table-item-text{
+    margin-left: 20px;
+    margin-bottom: 0px;
 }
 
+.table-item-text2{
+    width: 40%;
+    margin-bottom: 0px;
+    color:  hsl(14, 45%, 36%);
+    font-weight: 700;
+}
 
+@media (max-width: 375px) {
+    .container{
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        border-radius: 0px;
+    }
+    img{
+        position: absolute;
+        top: 0;
+        height: 200px;
+        width: 100%;
+        border-radius: 0px;
+    }
+    .space{
+        height: 200px;
+    }
+}
