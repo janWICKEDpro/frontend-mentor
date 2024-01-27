@@ -7,7 +7,6 @@ questionDivs.forEach(questionDiv =>{
     let minusIcon = questionDiv.querySelector('.minus');
 
     questionDiv.addEventListener('click', ()=>{
-        
         console.log(answer.classList);
         answer.classList.toggle('inactive');
         plusIcon.classList.toggle('inactive');
