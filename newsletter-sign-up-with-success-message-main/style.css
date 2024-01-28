@@ -124,7 +124,10 @@ background: linear-gradient(90deg, hsl(1, 100%, 67%) 0%, hsl(6, 100%, 67%) 100%)
 .card-success h1{
     margin: 5px 0px;
 }
-
+span{
+    font-weight: 700;
+    color:  hsl(234, 29%, 20%);
+}
 .inactive{
     display: none;
 }
@@ -171,8 +174,6 @@ background: linear-gradient(90deg, hsl(1, 100%, 67%) 0%, hsl(6, 100%, 67%) 100%)
         padding: 0px;
         justify-content: space-around;
     }
-
-
 }
 
 
