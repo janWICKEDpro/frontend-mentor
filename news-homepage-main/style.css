@@ -6,12 +6,53 @@
 body{
     margin: 0;
     font-family: "Inter", sans-serif;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    padding: 50px 50px;
+    background-color: hsl(36, 100%, 99%);
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
 }
 
+.logo{
+  height: 30px;
+  width: 50px;
+}
+
+a{
+   text-decoration: none;
+   padding-left: 10px;
+   color: hsl(236, 13%, 42%);
+}
+
+a:hover{
+  color: hsl(5, 85%, 63%);
+}
+.top{
+  display: flex;
+  justify-content: start;
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media (max-width: 375px) {
+  .desktop{
+    display: none;
+  }
+}
+@media (min-width: 376px) {
+  .mobile{
+    display: none;
+  }
+  .desktop{
+    width: 40%;
+  }
+}
