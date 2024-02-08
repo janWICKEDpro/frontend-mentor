@@ -10,8 +10,11 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center; */
-    padding: 50px 50px;
+    padding: 50px 100px;
     background-color: hsl(36, 100%, 99%);
+}
+h1{
+  margin: 0px;
 }
 header{
   display: flex;
@@ -39,9 +42,74 @@ a:hover{
   justify-content: start;
 }
 .top-main{
+  flex-grow: 2;
   margin-right: 20px;
 }
+.top-side{
+  flex-grow: 1;
+  background-color: hsl(240, 100%, 5%);
+  color: white;
+}
+ .new{
+  color: hsl(35, 77%, 62%);
+ }
+.row{
+  display: flex;
+  justify-content: start;
+  align-items: start;
 
+}
+.row-title{
+  margin: 0px;
+  font-size: 52px;
+  color: hsl(240, 100%, 5%);
+  font-weight: bold;
+}
+.column-text{
+  font-size: 18px;
+  color:  hsl(236, 13%, 42%);
+
+}
+.read-more{
+  height: 50px;
+  width: 150px;
+ 
+  background-color:hsl(5, 85%, 63%);
+  color: white;
+  display: flex;
+  align-items: center;
+  letter-spacing: 5px;
+  justify-content: center;
+}
+
+
+.bottom{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+article{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+.article-number{
+  color: hsl(233, 8%, 79%);
+  font-size: 40px;
+}
+.article-info{
+  margin-left: 10px;
+}
+.article-header{
+  color: hsl(240, 100%, 5%);
+
+}
+.article-image{
+  height: 200px;
+  width: 150px;
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
