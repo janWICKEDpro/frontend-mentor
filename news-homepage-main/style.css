@@ -85,7 +85,7 @@ a:hover{
 
 .bottom{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin-top: 20px;
 }
