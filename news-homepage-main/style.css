@@ -48,6 +48,7 @@ a:hover{
 .top-side{
   flex-grow: 1;
   background-color: hsl(240, 100%, 5%);
+  padding: 20px;
   color: white;
 }
  .new{
