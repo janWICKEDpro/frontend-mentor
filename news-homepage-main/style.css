@@ -2,14 +2,19 @@
     font-family: "Inter";
     src: url("./assets/fonts/static/Inter-Regular.ttf");
   }
-
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
 body{
     margin: 0;
     font-family: "Inter", sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+   
     padding: 50px 100px;
     background-color: hsl(36, 100%, 99%);
 }
@@ -41,6 +46,8 @@ a:hover{
   display: flex;
   justify-content: start;
 }
+
+
 .top-main{
   flex-grow: 2;
   margin-right: 20px;
@@ -87,14 +94,14 @@ a:hover{
 .bottom{
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   margin-top: 20px;
 }
 
 article{
+  font-size: 12px;
   display: flex;
-  justify-content: start;
-  align-items: start;
+  width: 25%;
 }
 .article-number{
   color: hsl(233, 8%, 79%);
@@ -108,8 +115,8 @@ article{
 
 }
 .article-image{
-  height: 200px;
-  width: 150px;
+  height: 130px;
+  width: 90px;
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
