@@ -58,9 +58,24 @@ a:hover{
   padding: 20px;
   color: white;
 }
+.top-side p{
+ padding: 10px 0px;
+ line-height: 20px;
+ letter-spacing: 1.5px;
+}
+
+.top-article-header{
+  padding: 10px 0px;
+  
+}
+.top-article-header:hover{
+  color: hsl(35, 77%, 62%);
+  cursor: pointer;
+}
  .new{
   color: hsl(35, 77%, 62%);
  }
+
 .row{
   display: flex;
   justify-content: start;
